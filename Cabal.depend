@@ -1,0 +1,1792 @@
+# depslib dependency file v1.0
+1480940259 source:e:\uni docs and soft\semester 3\oop practice\cabal\bullets.cpp
+	"Bullets.h"
+
+1480973769 e:\uni docs and soft\semester 3\oop practice\cabal\bullets.h
+	"Unit.h"
+
+1480876817 e:\uni docs and soft\semester 3\oop practice\cabal\unit.h
+	"Point.h"
+	"LTexture.h"
+	"SDL.h"
+
+1480314087 e:\uni docs and soft\semester 3\oop practice\cabal\point.h
+
+1480313315 e:\uni docs and soft\semester 3\oop practice\cabal\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\begin_code.h
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\close_code.h
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\cmingw_dev_lib\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 c:\cmingw_imagedev_lib\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1480521045 source:e:\uni docs and soft\semester 3\oop practice\cabal\enemy.cpp
+	"Enemy.h"
+
+1480521361 e:\uni docs and soft\semester 3\oop practice\cabal\enemy.h
+	"Unit.h"
+	"Bullets.h"
+	<iostream>
+
+1480979699 source:e:\uni docs and soft\semester 3\oop practice\cabal\ltexture.cpp
+	"LTexture.h"
+
+1481012342 source:e:\uni docs and soft\semester 3\oop practice\cabal\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"FileManager.h"
+	"Queue.h"
+	"Player.h"
+	"HealthBar.h"
+	"Enemy.h"
+	"Bullets.h"
+	"Default.h"
+	"MachineGun.h"
+	"Missiles.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"Boss.h"
+	"Screen.h"
+	"Splash.h"
+	"AirCraft.h"
+	"Tank.h"
+
+1480980491 e:\uni docs and soft\semester 3\oop practice\cabal\queue.h
+	"Node.h"
+	"Point.h"
+	"Enemy.h"
+	"Explosion.h"
+	"EBullet.h"
+	"Powerups.h"
+	<stdlib.h>
+	<iostream>
+
+1478104936 e:\uni docs and soft\semester 3\oop practice\cabal\node.h
+	"Unit.h"
+
+1480310445 e:\uni docs and soft\semester 3\oop practice\cabal\player.h
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1480772554 e:\uni docs and soft\semester 3\oop practice\cabal\powerups.h
+	"Unit.h"
+	<iostream>
+
+1480940218 source:e:\uni docs and soft\semester 3\oop practice\cabal\player.cpp
+	"Player.h"
+
+1481012716 source:e:\uni docs and soft\semester 3\oop practice\cabal\queue.cpp
+	"Queue.h"
+
+1476855982 e:\uni docs and soft\semester 3\oop practice\cabal\ltexture.cpp
+	"LTexture.h"
+
+1480773148 source:e:\uni docs and soft\semester 3\oop practice\cabal\filemanager.cpp
+	"FileManager.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1480190087 e:\uni docs and soft\semester 3\oop practice\cabal\filemanager.h
+	"Queue.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"HealthBar.h"
+
+1480779767 source:e:\uni docs and soft\semester 3\oop practice\cabal\unit.cpp
+	"Unit.h"
+
+1480576102 source:e:\uni docs and soft\semester 3\oop practice\cabal\commando.cpp
+	"Commando.h"
+
+1480522250 e:\uni docs and soft\semester 3\oop practice\cabal\commando.h
+	"Foots.h"
+	<iostream>
+
+1480762284 e:\uni docs and soft\semester 3\oop practice\cabal\foots.h
+	"Enemy.h"
+	<iostream>
+
+1480521045 source:e:\uni docs and soft\semester 3\oop practice\cabal\foots.cpp
+	"Foots.h"
+
+1480738319 source:e:\uni docs and soft\semester 3\oop practice\cabal\soldier.cpp
+	"Soldier.h"
+
+1480310445 e:\uni docs and soft\semester 3\oop practice\cabal\soldier.h
+	"Foots.h"
+	<iostream>
+
+1480918736 source:e:\uni docs and soft\semester 3\oop practice\cabal\default.cpp
+	"Default.h"
+	<math.h>
+
+1480511032 e:\uni docs and soft\semester 3\oop practice\cabal\default.h
+	"Bullets.h"
+
+1480977508 source:e:\uni docs and soft\semester 3\oop practice\cabal\machinegun.cpp
+	"MachineGun.h"
+	<math.h>
+
+1480973604 e:\uni docs and soft\semester 3\oop practice\cabal\machinegun.h
+	"Bullets.h"
+
+1451801791 c:\cmingw_mixerdev_lib\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1480979500 source:e:\uni docs and soft\semester 3\oop practice\cabal\missiles.cpp
+	"Missiles.h"
+
+1480511032 e:\uni docs and soft\semester 3\oop practice\cabal\missiles.h
+	"Bullets.h"
+	<math.h>
+	<cmath>
+
+1480980910 source:e:\uni docs and soft\semester 3\oop practice\cabal\explosion.cpp
+	"Explosion.h"
+
+1480310543 e:\uni docs and soft\semester 3\oop practice\cabal\explosion.h
+	"Unit.h"
+	<iostream>
+
+1480957463 source:e:\uni docs and soft\semester 3\oop practice\cabal\healthbar.cpp
+	"HealthBar.h"
+
+1480310445 e:\uni docs and soft\semester 3\oop practice\cabal\healthbar.h
+	"Unit.h"
+	<iostream>
+
+1481012764 source:e:\uni docs and soft\semester 3\oop practice\cabal\tank.cpp
+	"Tank.h"
+
+1481010412 e:\uni docs and soft\semester 3\oop practice\cabal\tank.h
+	"Vehicle.h"
+	<iostream>
+
+1480310445 e:\uni docs and soft\semester 3\oop practice\cabal\vehicle.h
+	"Enemy.h"
+	<iostream>
+
+1480310543 source:e:\uni docs and soft\semester 3\oop practice\cabal\vehicle.cpp
+	"Vehicle.h"
+
+1480980027 source:e:\uni docs and soft\semester 3\oop practice\cabal\boss.cpp
+	"Boss.h"
+
+1480521045 e:\uni docs and soft\semester 3\oop practice\cabal\boss.h
+	"Enemy.h"
+	<iostream>
+
+1480979500 source:e:\uni docs and soft\semester 3\oop practice\cabal\ebullet.cpp
+	"EBullet.h"
+	<math.h>
+
+1480521219 e:\uni docs and soft\semester 3\oop practice\cabal\ebullet.h
+	"Bullets.h"
+
+1480938520 source:e:\uni docs and soft\semester 3\oop practice\cabal\powerups.cpp
+	"Powerups.h"
+
+1480871800 source:e:\uni docs and soft\semester 3\oop practice\cabal\screen.cpp
+	"Screen.h"
+
+1480871717 e:\uni docs and soft\semester 3\oop practice\cabal\screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1480871814 source:e:\uni docs and soft\semester 3\oop practice\cabal\splash.cpp
+	<iostream>
+	"Splash.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1480871717 e:\uni docs and soft\semester 3\oop practice\cabal\splash.h
+	<string>
+	"Screen.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1480980027 source:e:\uni docs and soft\semester 3\oop practice\cabal\aircraft.cpp
+	"AirCraft.h"
+
+1480918315 e:\uni docs and soft\semester 3\oop practice\cabal\aircraft.h
+	"Vehicle.h"
+	<iostream>
+
+1480979074 source:e:\uni docs and soft\semester 3\oop practice\cabal\barriers.cpp
+	"Barriers.h"
+
+1480979063 e:\uni docs and soft\semester 3\oop practice\cabal\barriers.h
+	"Enemy.h"
+
+1480980028 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\aircraft.cpp
+	"AirCraft.h"
+
+1480918316 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\aircraft.h
+	"Vehicle.h"
+	<iostream>
+
+1480310446 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\vehicle.h
+	"Enemy.h"
+	<iostream>
+
+1480521362 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\enemy.h
+	"Unit.h"
+	"Bullets.h"
+	<iostream>
+
+1480876818 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\unit.h
+	"Point.h"
+	"LTexture.h"
+	"SDL.h"
+
+1480314088 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\point.h
+
+1480313316 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1480973770 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\bullets.h
+	"Unit.h"
+
+1480980028 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\boss.cpp
+	"Boss.h"
+
+1480521046 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\boss.h
+	"Enemy.h"
+	<iostream>
+
+1480940260 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\bullets.cpp
+	"Bullets.h"
+
+1480576104 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\commando.cpp
+	"Commando.h"
+
+1480522252 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\commando.h
+	"Foots.h"
+	<iostream>
+
+1480762286 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\foots.h
+	"Enemy.h"
+	<iostream>
+
+1480918738 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\default.cpp
+	"Default.h"
+	<math.h>
+
+1480511034 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\default.h
+	"Bullets.h"
+
+1480979502 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\ebullet.cpp
+	"EBullet.h"
+	<math.h>
+
+1480521220 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\ebullet.h
+	"Bullets.h"
+
+1480521046 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\enemy.cpp
+	"Enemy.h"
+
+1480980912 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\explosion.cpp
+	"Explosion.h"
+
+1480310544 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\explosion.h
+	"Unit.h"
+	<iostream>
+
+1480773150 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\filemanager.cpp
+	"FileManager.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1480190088 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\filemanager.h
+	"Queue.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"HealthBar.h"
+
+1480980492 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\queue.h
+	"Node.h"
+	"Point.h"
+	"Enemy.h"
+	"Explosion.h"
+	"EBullet.h"
+	"Powerups.h"
+	<stdlib.h>
+	<iostream>
+
+1478104938 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\node.h
+	"Unit.h"
+
+1480772556 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\powerups.h
+	"Unit.h"
+	<iostream>
+
+1480310446 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\soldier.h
+	"Foots.h"
+	<iostream>
+
+1480310446 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\healthbar.h
+	"Unit.h"
+	<iostream>
+
+1480521046 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\foots.cpp
+	"Foots.h"
+
+1480957464 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\healthbar.cpp
+	"HealthBar.h"
+
+1480979700 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\ltexture.cpp
+	"LTexture.h"
+
+1480977510 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\machinegun.cpp
+	"MachineGun.h"
+	<math.h>
+
+1480973606 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\machinegun.h
+	"Bullets.h"
+
+1481051434 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"FileManager.h"
+	"Queue.h"
+	"Player.h"
+	"HealthBar.h"
+	"Enemy.h"
+	"Bullets.h"
+	"Default.h"
+	"MachineGun.h"
+	"Missiles.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"Boss.h"
+	"Screen.h"
+	"Splash.h"
+	"AirCraft.h"
+	"Tank.h"
+	"Word.h"
+	"Character.h"
+	"Button.h"
+	"Button_Pos.h"
+	"MainMenu.h"
+
+1480310446 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\player.h
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1480511034 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\missiles.h
+	"Bullets.h"
+	<math.h>
+	<cmath>
+
+1481044971 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1481045049 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\splash.h
+	<string>
+	"Screen.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1481010414 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\tank.h
+	"Vehicle.h"
+	<iostream>
+
+1480979502 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\missiles.cpp
+	"Missiles.h"
+
+1480940220 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\player.cpp
+	"Player.h"
+
+1480938522 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\powerups.cpp
+	"Powerups.h"
+
+1481012718 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\queue.cpp
+	"Queue.h"
+
+1480863037 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\screen.cpp
+	"Screen.h"
+
+1480738320 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\soldier.cpp
+	"Soldier.h"
+
+1481012766 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\tank.cpp
+	"Tank.h"
+
+1480779768 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\unit.cpp
+	"Unit.h"
+
+1480310544 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\vehicle.cpp
+	"Vehicle.h"
+
+1481045023 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\splash.cpp
+	<iostream>
+	"Splash.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\close_code.h
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764693 c:\users\bilal\desktop\talal\3rd semester\oop\sdl library\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 c:\users\bilal\desktop\talal\3rd semester\oop\sdl image library\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1480961472 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\button.cpp
+	"Button.h"
+	"Character.h"
+	"Point.h"
+	"String.h"
+	<iostream>
+
+1480961314 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\button.h
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+	"Button_Pos.h"
+	"SDL.h"
+
+1480922708 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1480961456 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\word.h
+	"Character.h"
+	"Point.h"
+	<iostream>
+
+1480922707 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\button_pos.h
+
+1481026403 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\character.cpp
+	"Character.h"
+	"Point.h"
+	<iostream>
+	"cmath"
+
+1480961456 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\mainmenu.cpp
+	"MainMenu.h"
+
+1480961456 c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\mainmenu.h
+	"SDL.h"
+	"Button.h"
+	"Button_Pos.h"
+	"SDL_image.h"
+	<iostream>
+
+1481025070 source:c:\users\bilal\desktop\talal\3rd semester\oop\cabal\cabal final\cabal main\word.cpp
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+
+1451801791 c:\users\bilal\desktop\talal\3rd semester\oop\sdl mixer\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1480980028 source:c:\users\mb01468\desktop\cabal main\aircraft.cpp
+	"AirCraft.h"
+
+1480918316 c:\users\mb01468\desktop\cabal main\aircraft.h
+	"Vehicle.h"
+	<iostream>
+
+1480310446 c:\users\mb01468\desktop\cabal main\vehicle.h
+	"Enemy.h"
+	<iostream>
+
+1480521362 c:\users\mb01468\desktop\cabal main\enemy.h
+	"Unit.h"
+	"Bullets.h"
+	<iostream>
+
+1481070558 c:\users\mb01468\desktop\cabal main\unit.h
+	"Point.h"
+	"LTexture.h"
+	"SDL.h"
+
+1480314088 c:\users\mb01468\desktop\cabal main\point.h
+
+1480313316 c:\users\mb01468\desktop\cabal main\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1480973770 c:\users\mb01468\desktop\cabal main\bullets.h
+	"Unit.h"
+
+1481073186 source:c:\users\mb01468\desktop\cabal main\boss.cpp
+	"Boss.h"
+
+1481072857 c:\users\mb01468\desktop\cabal main\boss.h
+	"Enemy.h"
+	"Turrets.h"
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1480940260 source:c:\users\mb01468\desktop\cabal main\bullets.cpp
+	"Bullets.h"
+
+1480961472 source:c:\users\mb01468\desktop\cabal main\button.cpp
+	"Button.h"
+	"Character.h"
+	"Point.h"
+	"String.h"
+	<iostream>
+
+1480961314 c:\users\mb01468\desktop\cabal main\button.h
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+	"Button_Pos.h"
+	"SDL.h"
+
+1480922708 c:\users\mb01468\desktop\cabal main\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1480961456 c:\users\mb01468\desktop\cabal main\word.h
+	"Character.h"
+	"Point.h"
+	<iostream>
+
+1480922707 c:\users\mb01468\desktop\cabal main\button_pos.h
+
+1481026403 source:c:\users\mb01468\desktop\cabal main\character.cpp
+	"Character.h"
+	"Point.h"
+	<iostream>
+	"cmath"
+
+1480576104 source:c:\users\mb01468\desktop\cabal main\commando.cpp
+	"Commando.h"
+
+1480522252 c:\users\mb01468\desktop\cabal main\commando.h
+	"Foots.h"
+	<iostream>
+
+1480762286 c:\users\mb01468\desktop\cabal main\foots.h
+	"Enemy.h"
+	<iostream>
+
+1480918738 source:c:\users\mb01468\desktop\cabal main\default.cpp
+	"Default.h"
+	<math.h>
+
+1480511034 c:\users\mb01468\desktop\cabal main\default.h
+	"Bullets.h"
+
+1480979502 source:c:\users\mb01468\desktop\cabal main\ebullet.cpp
+	"EBullet.h"
+	<math.h>
+
+1480521220 c:\users\mb01468\desktop\cabal main\ebullet.h
+	"Bullets.h"
+
+1480521046 source:c:\users\mb01468\desktop\cabal main\enemy.cpp
+	"Enemy.h"
+
+1480980912 source:c:\users\mb01468\desktop\cabal main\explosion.cpp
+	"Explosion.h"
+
+1480310544 c:\users\mb01468\desktop\cabal main\explosion.h
+	"Unit.h"
+	<iostream>
+
+1480773150 source:c:\users\mb01468\desktop\cabal main\filemanager.cpp
+	"FileManager.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1480190088 c:\users\mb01468\desktop\cabal main\filemanager.h
+	"Queue.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"HealthBar.h"
+
+1481068672 c:\users\mb01468\desktop\cabal main\queue.h
+	"Node.h"
+	"Point.h"
+	"Enemy.h"
+	"Explosion.h"
+	"EBullet.h"
+	"Powerups.h"
+	"Missiles.h"
+	<SDL_mixer.h>
+	<stdlib.h>
+	<iostream>
+
+1478104938 c:\users\mb01468\desktop\cabal main\node.h
+	"Unit.h"
+
+1480772556 c:\users\mb01468\desktop\cabal main\powerups.h
+	"Unit.h"
+	<iostream>
+
+1480310446 c:\users\mb01468\desktop\cabal main\soldier.h
+	"Foots.h"
+	<iostream>
+
+1480310446 c:\users\mb01468\desktop\cabal main\healthbar.h
+	"Unit.h"
+	<iostream>
+
+1480521046 source:c:\users\mb01468\desktop\cabal main\foots.cpp
+	"Foots.h"
+
+1481073047 source:c:\users\mb01468\desktop\cabal main\healthbar.cpp
+	"HealthBar.h"
+
+1481073590 source:c:\users\mb01468\desktop\cabal main\ltexture.cpp
+	"LTexture.h"
+
+1480977510 source:c:\users\mb01468\desktop\cabal main\machinegun.cpp
+	"MachineGun.h"
+	<math.h>
+
+1480973606 c:\users\mb01468\desktop\cabal main\machinegun.h
+	"Bullets.h"
+
+1481073080 source:c:\users\mb01468\desktop\cabal main\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"FileManager.h"
+	"Queue.h"
+	"Player.h"
+	"HealthBar.h"
+	"Enemy.h"
+	"Bullets.h"
+	"Default.h"
+	"MachineGun.h"
+	"Missiles.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"Boss.h"
+	"Screen.h"
+	"Splash.h"
+	"AirCraft.h"
+	"Tank.h"
+	"Word.h"
+	"Character.h"
+	"Button.h"
+	"Button_Pos.h"
+	"MainMenu.h"
+	"string.h"
+
+1480310446 c:\users\mb01468\desktop\cabal main\player.h
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1480511034 c:\users\mb01468\desktop\cabal main\missiles.h
+	"Bullets.h"
+	<math.h>
+	<cmath>
+
+1481044971 c:\users\mb01468\desktop\cabal main\screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1481045049 c:\users\mb01468\desktop\cabal main\splash.h
+	<string>
+	"Screen.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1481010414 c:\users\mb01468\desktop\cabal main\tank.h
+	"Vehicle.h"
+	<iostream>
+
+1480961456 c:\users\mb01468\desktop\cabal main\mainmenu.h
+	"SDL.h"
+	"Button.h"
+	"Button_Pos.h"
+	"SDL_image.h"
+	<iostream>
+
+1480961456 source:c:\users\mb01468\desktop\cabal main\mainmenu.cpp
+	"MainMenu.h"
+
+1480979502 source:c:\users\mb01468\desktop\cabal main\missiles.cpp
+	"Missiles.h"
+
+1481066923 source:c:\users\mb01468\desktop\cabal main\player.cpp
+	"Player.h"
+
+1481071117 source:c:\users\mb01468\desktop\cabal main\powerups.cpp
+	"Powerups.h"
+
+1481073723 source:c:\users\mb01468\desktop\cabal main\queue.cpp
+	"Queue.h"
+
+1480863037 source:c:\users\mb01468\desktop\cabal main\screen.cpp
+	"Screen.h"
+
+1480738320 source:c:\users\mb01468\desktop\cabal main\soldier.cpp
+	"Soldier.h"
+
+1481045023 source:c:\users\mb01468\desktop\cabal main\splash.cpp
+	<iostream>
+	"Splash.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1481070558 source:c:\users\mb01468\desktop\cabal main\tank.cpp
+	"Tank.h"
+
+1481070650 source:c:\users\mb01468\desktop\cabal main\unit.cpp
+	"Unit.h"
+
+1480310544 source:c:\users\mb01468\desktop\cabal main\vehicle.cpp
+	"Vehicle.h"
+
+1481025070 source:c:\users\mb01468\desktop\cabal main\word.cpp
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+
+1480979076 source:c:\users\mb01468\desktop\cabal main\barriers.cpp
+	"Barriers.h"
+
+1480979064 c:\users\mb01468\desktop\cabal main\barriers.h
+	"Enemy.h"
+
+1481060717 source:c:\users\mb01468\desktop\cabal main\breakable.cpp
+	"Breakable.h"
+
+1481060717 c:\users\mb01468\desktop\cabal main\breakable.h
+	"Barriers.h"
+	<iostream>
+
+1481071025 c:\users\mb01468\desktop\cabal main\turrets.h
+	"Enemy.h"
+	"Boss.h"
+	<iostream>
+
+1481071025 source:c:\users\mb01468\desktop\cabal main\turrets.cpp
+	"Turrets.h"
+
+1480980028 source:c:\users\bilal\desktop\cabal\cabal main\aircraft.cpp
+	"AirCraft.h"
+
+1480918316 c:\users\bilal\desktop\cabal\cabal main\aircraft.h
+	"Vehicle.h"
+	<iostream>
+
+1480310446 c:\users\bilal\desktop\cabal\cabal main\vehicle.h
+	"Enemy.h"
+	<iostream>
+
+1480521362 c:\users\bilal\desktop\cabal\cabal main\enemy.h
+	"Unit.h"
+	"Bullets.h"
+	<iostream>
+
+1481070560 c:\users\bilal\desktop\cabal\cabal main\unit.h
+	"Point.h"
+	"LTexture.h"
+	"SDL.h"
+
+1480314088 c:\users\bilal\desktop\cabal\cabal main\point.h
+
+1480313316 c:\users\bilal\desktop\cabal\cabal main\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1481094647 c:\users\bilal\desktop\cabal\cabal main\bullets.h
+	"Unit.h"
+
+1480979076 source:c:\users\bilal\desktop\cabal\cabal main\barriers.cpp
+	"Barriers.h"
+
+1480979064 c:\users\bilal\desktop\cabal\cabal main\barriers.h
+	"Enemy.h"
+
+1481073188 source:c:\users\bilal\desktop\cabal\cabal main\boss.cpp
+	"Boss.h"
+
+1481072858 c:\users\bilal\desktop\cabal\cabal main\boss.h
+	"Enemy.h"
+	"Turrets.h"
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1481071026 c:\users\bilal\desktop\cabal\cabal main\turrets.h
+	"Enemy.h"
+	"Boss.h"
+	<iostream>
+
+1480310446 c:\users\bilal\desktop\cabal\cabal main\healthbar.h
+	"Unit.h"
+	<iostream>
+
+1481060718 source:c:\users\bilal\desktop\cabal\cabal main\breakable.cpp
+	"Breakable.h"
+
+1481060718 c:\users\bilal\desktop\cabal\cabal main\breakable.h
+	"Barriers.h"
+	<iostream>
+
+1480940260 source:c:\users\bilal\desktop\cabal\cabal main\bullets.cpp
+	"Bullets.h"
+
+1480961474 source:c:\users\bilal\desktop\cabal\cabal main\button.cpp
+	"Button.h"
+	"Character.h"
+	"Point.h"
+	"String.h"
+	<iostream>
+
+1480961316 c:\users\bilal\desktop\cabal\cabal main\button.h
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+	"Button_Pos.h"
+	"SDL.h"
+
+1480922710 c:\users\bilal\desktop\cabal\cabal main\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1480961458 c:\users\bilal\desktop\cabal\cabal main\word.h
+	"Character.h"
+	"Point.h"
+	<iostream>
+
+1480922708 c:\users\bilal\desktop\cabal\cabal main\button_pos.h
+
+1481026404 source:c:\users\bilal\desktop\cabal\cabal main\character.cpp
+	"Character.h"
+	"Point.h"
+	<iostream>
+	"cmath"
+
+1480576104 source:c:\users\bilal\desktop\cabal\cabal main\commando.cpp
+	"Commando.h"
+
+1480522252 c:\users\bilal\desktop\cabal\cabal main\commando.h
+	"Foots.h"
+	<iostream>
+
+1480762286 c:\users\bilal\desktop\cabal\cabal main\foots.h
+	"Enemy.h"
+	<iostream>
+
+1480979502 source:c:\users\bilal\desktop\cabal\cabal main\ebullet.cpp
+	"EBullet.h"
+	<math.h>
+
+1480521220 c:\users\bilal\desktop\cabal\cabal main\ebullet.h
+	"Bullets.h"
+
+1480521046 source:c:\users\bilal\desktop\cabal\cabal main\enemy.cpp
+	"Enemy.h"
+
+1480980912 source:c:\users\bilal\desktop\cabal\cabal main\explosion.cpp
+	"Explosion.h"
+
+1480310544 c:\users\bilal\desktop\cabal\cabal main\explosion.h
+	"Unit.h"
+	<iostream>
+
+1480773150 source:c:\users\bilal\desktop\cabal\cabal main\filemanager.cpp
+	"FileManager.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1480190088 c:\users\bilal\desktop\cabal\cabal main\filemanager.h
+	"Queue.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"HealthBar.h"
+
+1481068674 c:\users\bilal\desktop\cabal\cabal main\queue.h
+	"Node.h"
+	"Point.h"
+	"Enemy.h"
+	"Explosion.h"
+	"EBullet.h"
+	"Powerups.h"
+	"Missiles.h"
+	<SDL_mixer.h>
+	<stdlib.h>
+	<iostream>
+
+1478104938 c:\users\bilal\desktop\cabal\cabal main\node.h
+	"Unit.h"
+
+1480772556 c:\users\bilal\desktop\cabal\cabal main\powerups.h
+	"Unit.h"
+	<iostream>
+
+1481090450 c:\users\bilal\desktop\cabal\cabal main\missiles.h
+	"Bullets.h"
+	<math.h>
+	<cmath>
+
+1480310446 c:\users\bilal\desktop\cabal\cabal main\soldier.h
+	"Foots.h"
+	<iostream>
+
+1480521046 source:c:\users\bilal\desktop\cabal\cabal main\foots.cpp
+	"Foots.h"
+
+1481073048 source:c:\users\bilal\desktop\cabal\cabal main\healthbar.cpp
+	"HealthBar.h"
+
+1481073592 source:c:\users\bilal\desktop\cabal\cabal main\ltexture.cpp
+	"LTexture.h"
+
+1480977510 source:c:\users\bilal\desktop\cabal\cabal main\machinegun.cpp
+	"MachineGun.h"
+	<math.h>
+
+1480973606 c:\users\bilal\desktop\cabal\cabal main\machinegun.h
+	"Bullets.h"
+
+1481073082 source:c:\users\bilal\desktop\cabal\cabal main\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"FileManager.h"
+	"Queue.h"
+	"Player.h"
+	"HealthBar.h"
+	"Enemy.h"
+	"Bullets.h"
+	"Default.h"
+	"MachineGun.h"
+	"Missiles.h"
+	"Point.h"
+	"Commando.h"
+	"Soldier.h"
+	"Boss.h"
+	"Screen.h"
+	"Splash.h"
+	"AirCraft.h"
+	"Tank.h"
+	"Word.h"
+	"Character.h"
+	"Button.h"
+	"Button_Pos.h"
+	"MainMenu.h"
+	"string.h"
+
+1480310446 c:\users\bilal\desktop\cabal\cabal main\player.h
+	"Unit.h"
+	"HealthBar.h"
+	<iostream>
+
+1481079358 c:\users\bilal\desktop\cabal\cabal main\default.h
+	"Bullets.h"
+
+1481044972 c:\users\bilal\desktop\cabal\cabal main\screen.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1481045050 c:\users\bilal\desktop\cabal\cabal main\splash.h
+	<string>
+	"Screen.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1481010414 c:\users\bilal\desktop\cabal\cabal main\tank.h
+	"Vehicle.h"
+	<iostream>
+
+1480961458 c:\users\bilal\desktop\cabal\cabal main\mainmenu.h
+	"SDL.h"
+	"Button.h"
+	"Button_Pos.h"
+	"SDL_image.h"
+	<iostream>
+
+1480961458 source:c:\users\bilal\desktop\cabal\cabal main\mainmenu.cpp
+	"MainMenu.h"
+
+1481066924 source:c:\users\bilal\desktop\cabal\cabal main\player.cpp
+	"Player.h"
+
+1481071118 source:c:\users\bilal\desktop\cabal\cabal main\powerups.cpp
+	"Powerups.h"
+
+1481073994 source:c:\users\bilal\desktop\cabal\cabal main\queue.cpp
+	"Queue.h"
+
+1480863038 source:c:\users\bilal\desktop\cabal\cabal main\screen.cpp
+	"Screen.h"
+
+1480738320 source:c:\users\bilal\desktop\cabal\cabal main\soldier.cpp
+	"Soldier.h"
+
+1481045024 source:c:\users\bilal\desktop\cabal\cabal main\splash.cpp
+	<iostream>
+	"Splash.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+
+1481070560 source:c:\users\bilal\desktop\cabal\cabal main\tank.cpp
+	"Tank.h"
+
+1481071026 source:c:\users\bilal\desktop\cabal\cabal main\turrets.cpp
+	"Turrets.h"
+
+1481070652 source:c:\users\bilal\desktop\cabal\cabal main\unit.cpp
+	"Unit.h"
+
+1480310544 source:c:\users\bilal\desktop\cabal\cabal main\vehicle.cpp
+	"Vehicle.h"
+
+1481025072 source:c:\users\bilal\desktop\cabal\cabal main\word.cpp
+	"Character.h"
+	"Point.h"
+	"Word.h"
+	<iostream>
+
+1481079360 source:c:\users\bilal\desktop\cabal\cabal main\default.cpp
+	"Default.h"
+	<math.h>
+
+1481090451 source:c:\users\bilal\desktop\cabal\cabal main\missiles.cpp
+	"Missiles.h"
+
