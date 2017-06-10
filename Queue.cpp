@@ -58,7 +58,7 @@ void Queue::Update(long int& frame, SDL_Renderer* gRenderer, Unit* target, LText
                 if (temp==head)
                 {
                     head=head->next;    //shift to next head
-                    if (head!=NULL)
+                    if (head!=NULL)      //If only
                     {
                         head->prev=NULL;
                     }
@@ -80,7 +80,6 @@ void Queue::Update(long int& frame, SDL_Renderer* gRenderer, Unit* target, LText
                     delete temp;
                     temp=temp->prev;
                 }
-                break;
             }
             temp->unit->Render(frame, gRenderer);
             if (temp->unit->GetType()==5)
@@ -136,13 +135,13 @@ void Queue::Save(FILE* filewriter)
 
 void Queue::Collision(LTexture* explosionimage, LTexture* powerupimage, LTexture* bossexplode, Unit* target, Mix_Chunk* explodes, Mix_Chunk* bonus, int* score)
 {
-    Unit* generator= NULL;
-    Node* temp=head;
-    Node* temp2=NULL;
+    Unit* generator= NULL;                      //Pointer is created which is initially set to NULL
+    Node* temp=head;                            //Pointer 'temp' set to point towards head
+    Node* temp2=NULL;                           //Pointer is created which is initially set to NULL
 
     while(temp != NULL)
     {
-        if (temp->unit->GetType() == 100 || temp->unit->GetType() == 1 || temp->unit->GetType() == 2 ||
+        if (temp->unit->GetType() == 101 || temp->unit->GetType() == 1 || temp->unit->GetType() == 2 ||
             temp->unit->GetType() == 13 || temp->unit->GetType() == 14 || temp->unit->GetType()==3 ||
             temp->unit->GetType()==4 || temp->unit->GetType() == 50 || temp->unit->GetType() == 51 || temp->unit->GetType()==5)
         {
@@ -169,9 +168,9 @@ void Queue::Collision(LTexture* explosionimage, LTexture* powerupimage, LTexture
                                 }
                                 if (!(temp->unit->GetType()==13 || temp->unit->GetType()==14))
                                 {
-                                    if (temp->unit->GetHealth()==0)
+                                    if (temp->unit->GetHealth()==0)             //checks for the health of enemy if the enemy dies
                                     {
-                                        int random = rand()%10;
+                                        int random = rand()%10;                 //powerups are generated randomly
                                         if (random<2)
                                         {
                                             Point powerup=temp->unit->GetPosition();
@@ -180,15 +179,15 @@ void Queue::Collision(LTexture* explosionimage, LTexture* powerupimage, LTexture
                                         }
                                         if (temp->unit->GetType()==3 || temp->unit->GetType()==4)
                                         {
-                                            Point explode=temp->unit->GetPosition();
-                                            generator=new Explosion(explosionimage, explode, ENEMY);
+                                            Point explode=temp->unit->GetPosition();                    //gets the position of enemy
+                                            generator=new Explosion(explosionimage, explode, ENEMY);    //explosion is shown at that point
                                             Enqueue(generator);
                                             Mix_PlayChannel(-1,explodes,0);
                                         }
-                                        else if (temp->unit->GetType()==5)
+                                        else if (temp->unit->GetType()==5)              //checks for the type of enemy i.e. the boss
                                         {
-                                            Point explode=temp->unit->GetPosition();
-                                            generator=new Explosion(explosionimage, explode, BOSS);
+                                            Point explode=temp->unit->GetPosition();            //gets the position of the boss
+                                            generator=new Explosion(bossexplode, explode, BOSS);    //different explosion is shown for the death of boss
                                             Enqueue(generator);
                                             Mix_PlayChannel(-1,explodes,0);
                                         }
@@ -251,10 +250,10 @@ void Queue::Collision(LTexture* explosionimage, LTexture* powerupimage, LTexture
 
                 else
                 {
-                    temp2 = temp2->next;
+                    temp2 = temp2->next;                //pointer temp2 now points to the next of temp2
                 }
             }
-            temp=temp->next;
+            temp=temp->next;                            //pointer temp now points to temp-next
         }
 
         else

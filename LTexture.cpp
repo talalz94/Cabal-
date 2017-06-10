@@ -104,7 +104,7 @@ void LTexture::Render( int x, int y, SDL_Rect* clip, double angle, SDL_Point* ce
         renderQuad.w = clip->w*scale;
         renderQuad.h = clip->h*scale;
     }
-    SDL_RenderDrawRect(gRenderer, &renderQuad);
+    //SDL_RenderDrawRect(gRenderer, &renderQuad);
     //Render to screen
     SDL_RenderCopyEx( gRenderer, texture, clip, &renderQuad, angle, center, flip );
 }

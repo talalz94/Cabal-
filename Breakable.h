@@ -5,6 +5,7 @@
 class Breakable:public Barriers
 {
 public:
+    Breakable();
     Breakable(LTexture*, Point&, int);
     ~Breakable();
     void Render(long int&, SDL_Renderer*);

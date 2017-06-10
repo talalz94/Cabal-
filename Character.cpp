@@ -12,8 +12,8 @@ Character::Character()
 
 Character::Character(LTexture* image, int i)
 {
-    Image = image;
-    if (i <= 10)
+    Image = image;                                          //the fontsprite sheet is loaded
+    if (i <= 10)                                            //the characters are separated according to their positions in the spritesheet
     {
         rect.x =  (i) * 44;
     }
@@ -43,7 +43,7 @@ Character::Character(LTexture* image, int i)
     }
 
 
-    if (i <= 10)
+    if (i <= 10)                            //characters are also separated according to their y-coordinates on the spritesheet
     {
         rect.y = 0;
     }
@@ -73,8 +73,8 @@ Character::Character(LTexture* image, int i)
         rect.y = 288;
     }
 
-    rect.w = 44;
-    rect.h = 48;
+    rect.w = 44;                            //Each character is taken to have a width of 44
+    rect.h = 48;                            //Each character is taken to have a height of 48
 
 
 
@@ -87,10 +87,10 @@ Character::~Character()
     Image = NULL;
 }
 
-void Character::SetPosition(Point* p)
+void Character::SetPosition(Point* p)           //Point is created to set the character at a certain point
 {
-    position.x = p->x;
-    position.y = p->y;
+    position.x = p->x;                          //The x-coordinate of the point
+    position.y = p->y;                          //The y-coordinate of the point
 }
 
 void Character::Render(SDL_Renderer* gRenderer)

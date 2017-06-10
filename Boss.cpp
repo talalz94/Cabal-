@@ -34,17 +34,19 @@ Boss::Boss(LTexture* image, LTexture* healthimage, Point& position,Unit* target)
 
 Boss::~Boss()
 {
+    delete t1;
+    delete healthbar;
     spriteSheetTexture = NULL;
     std::cout<<"Boss deallocated\n";
 }
 
 void Boss::Render(long int& frame, SDL_Renderer* gRenderer)
 {
-    t1->Render(frame, gRenderer);
+
     spriteSheetTexture->Render( position.x - width/2, position.y - height/2, &clips[0], 0.0, NULL, SDL_FLIP_NONE, gRenderer );
     healthbar->Move(health);
     healthbar->Render(frame,gRenderer);
-
+    t1->Render(frame, gRenderer);
 }
 
 void Boss::Move(long int& frame)
@@ -58,7 +60,6 @@ void Boss::Move(long int& frame)
         fire=0;
     }
     c++;
-    //std::cout<<"c: "<<c<<"\n";
                                                         // Set vertical speed
     position.x+=speedx;
     position.y+=speedy;

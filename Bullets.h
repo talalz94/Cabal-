@@ -1,10 +1,10 @@
 #pragma once
 #include "Unit.h"
 
-class Bullets:public Unit      //inherits from Unit class. Itself is a base class.
+class Bullets:public Unit
 {
 protected:
-    int ratioo;               //used to calculate rotation of missiles
+    int ratioo;
     Unit* target;
     Point initial;
     Point destination;

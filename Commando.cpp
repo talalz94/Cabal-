@@ -9,7 +9,7 @@ Commando::Commando(LTexture* image, Point& position, int animation):Foots(image,
 {
     //image->SetScale(position.y);
 
-    //IDLE
+    //IDLE                              //Different images are clipped from the spritesheet to perform animation
     clips[0].x =  9;
     clips[0].y =  5;
     clips[0].w = 26;
@@ -74,12 +74,12 @@ Commando::Commando(LTexture* image, Point& position, int animation):Foots(image,
     this->height = clips[0].h;
 
     this->type=1;
-    speedx = 0;
-    speedy = 0;
+    speedx = 0;             //Speed in x-axis
+    speedy = 0;             //Speed in y-axis
     alive  = true;
     moves=0;
 
-    health=2;
+    health=2;               //health is set
     fire=0;
     //std::cout<<(position.y)<<"\n";
 }
@@ -149,7 +149,7 @@ void Commando::Move()
     }
     if (fire==0)
     {
-        if (position.x>300 && position.x<350)
+        if (position.x>300 && position.x<350)   // At this position, it stops and fires.
         {
             SetState(IDLE);
             fire=1;
@@ -173,7 +173,7 @@ void Commando::Move()
             if (position.x>300 && position.x<350)
             {
                 SetState(MOVE_LEFT);
-                fire=-1;
+                fire=-1;    // fire is stopped
             }
             else if (position.x<800 && position.x>750)
             {
@@ -186,7 +186,7 @@ void Commando::Move()
 
 bool Commando::GetAlive()
 {
-    if (position.x<0 && animation==MOVE_LEFT)
+    if (position.x<0 && animation==MOVE_LEFT)   // If commando moves outside screen, it dies.
     {
         alive=false;
     }
@@ -197,7 +197,7 @@ bool Commando::GetAlive()
     if (health==0)
     {
         health=-1;
-        SetState(DIE);
+        SetState(DIE);  //After 2 bullets are hit, commando dies.
     }
     return alive;
 }

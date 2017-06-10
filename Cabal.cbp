@@ -13,12 +13,9 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="C:/Cmingw_dev_lib/include/SDL2" />
-					<Add directory="C:/Cmingw_imagedev_lib/include/SDL2" />
-					<Add directory="C:/Cmingw_mixerdev_lib/include/SDL2" />
-					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Image Library/i686-w64-mingw32/include/SDL2" />
-					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Library/i686-w64-mingw32/include/SDL2" />
-					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Mixer/i686-w64-mingw32/include/SDL2" />
+					<Add directory="C:/devel/include/SDL2" />
+					<Add directory="C:/imagedevel/include/SDL2" />
+					<Add directory="C:/mixer/include/SDL2" />
 				</Compiler>
 				<Linker>
 					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer" />
@@ -28,6 +25,9 @@
 					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Image Library/i686-w64-mingw32/lib" />
 					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Library/i686-w64-mingw32/lib" />
 					<Add directory="C:/Users/bilal/Desktop/talal/3RD SEMESTER/OOP/SDL Mixer/i686-w64-mingw32/lib" />
+					<Add directory="C:/devel/lib" />
+					<Add directory="C:/imagedevel/lib" />
+					<Add directory="C:/mixer/lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -45,7 +45,14 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="C:/Users/Saad/Desktop/SDL files/include/SDL2" />
+			<Add directory="C:/Users/Saad/Desktop/SDL_A5/i686-w64-mingw32/include/SDL2" />
 		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
+			<Add directory="C:/Users/Saad/Desktop/SDL files/lib" />
+			<Add directory="C:/Users/Saad/Desktop/SDL_A5/i686-w64-mingw32/lib" />
+		</Linker>
 		<Unit filename="AirCraft.cpp" />
 		<Unit filename="AirCraft.h" />
 		<Unit filename="Barriers.cpp" />
@@ -103,6 +110,8 @@
 		<Unit filename="Tank.h" />
 		<Unit filename="Turrets.cpp" />
 		<Unit filename="Turrets.h" />
+		<Unit filename="UnBreakable.cpp" />
+		<Unit filename="UnBreakable.h" />
 		<Unit filename="Unit.cpp" />
 		<Unit filename="Unit.h" />
 		<Unit filename="Vehicle.cpp" />

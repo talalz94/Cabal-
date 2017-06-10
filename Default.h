@@ -1,7 +1,7 @@
 #pragma once
 #include "Bullets.h"
 
-class Default:public Bullets                   //Inherits from the Bullets class.
+class Default:public Bullets
 {
 public:
     Default(LTexture*, Point&, Point&);

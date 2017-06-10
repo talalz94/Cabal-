@@ -10,23 +10,23 @@ EBullet::EBullet()
 
 EBullet::EBullet(LTexture* image, Point& departure, Point& destination)
 {
-    spriteSheetTexture = image;
-    //Frame 0
+    spriteSheetTexture = image;         //sprite sheet is loaded for bullets
+    //Frame 0                           //image is clipped according to certain dimensions
     clips[0].x = 11;
     clips[0].y = 3;
     clips[0].w = 6;
     clips[0].h = 6;
 
-    this->position = departure;
-    this->destination = destination;
+    this->position = departure;             //position is given from where the bullet originates
+    this->destination = destination;        //position where the bullet ends up
     this->initial=departure;
 
-    this->width = clips[0].w;
-    this->height = clips[0].h;
+    this->width = clips[0].w;               //width of a bullet
+    this->height = clips[0].h;              //height of a bullet
 
     type=14;
-    speedx = 3;
-    speedy = 3;
+    speedx = 3;                               //speed in x-axis
+    speedy = 3;                               //speed in y-axis
     alive  = true;
     moves=0;
     health=1;

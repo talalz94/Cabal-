@@ -4,7 +4,7 @@
 #include <cmath>
 
 
-class Missiles:public Bullets    //inherited from bullets
+class Missiles:public Bullets
 {
 public:
     Missiles(LTexture*, Point&, Unit*);

@@ -122,13 +122,6 @@ int main( int argc, char* args[] )
 			bool splashscreen = true;
 			int delay = 100;                    //Splash screen loading time
 
-            /*Point p;                            //Main menu variables
-            p.x = 20;
-            p.y = 20;
-            Character aa(&Image, 53);
-            aa.SetPosition(&p);
-            char* ch = "778789";  */              //
-
             int fire=0;
 			Queue units;
 			Point screen;
@@ -137,7 +130,6 @@ int main( int argc, char* args[] )
             int health=10;
             int score=0;
             int counter=0;
-            //file.LoadFile(screen, health, units, &gSpriteCommando, &gSpriteSoldier);
             Player* player = new Player(&gSpritePlayer, &gHealth, health, screen);
             Enemy* enemy=NULL;
             Bullets* guns=NULL;
@@ -212,12 +204,24 @@ int main( int argc, char* args[] )
                     {
                         play = true;
                         done = false;
+                        Mix_PlayChannel(-1,StartGame,0);
+
                     }
                     if((e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT && (x > 450) && (x<610))
                         && (y>500) && (y<570))
                     {
                         quit=true;
                     }
+
+                    if((e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT && (x > 400) && (x<720))
+                        && (y>350) && (y<420))
+                    {
+                        file.LoadFile(player, screen, health,score, units, &gSpriteCommando, &gSpriteSoldier, &gSpriteAirCraft, &gSpriteBoss,
+                                       &gSpriteBullet, &gSpriteTank, &gBossHealth, &gMissile, &gexplode, &gbossexplode, &gpower);
+                        play=true;
+                        done=false;
+                    }
+
 
                     SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );    //Clear screen
                     SDL_RenderClear( gRenderer );
@@ -236,7 +240,7 @@ int main( int argc, char* args[] )
                 if (play == true)        //Main game function start.
                 {
 
-
+                    Mix_PlayChannel(-1,BackMusic,0);
                     srand(time(NULL));
                     if(frame%60 == 0)
                     {
@@ -347,14 +351,13 @@ int main( int argc, char* args[] )
                         }
                         else if (player->GetAlive()==false )
                         {
-                            done=true;
-                            play=false;
                             Mix_PlayChannel(-1,Death,0);
                             char* over = "GAME OVER";
                             GameLost= new Word(over, &Image, gRenderer, strlen(over), SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
-                            if (counter>=60)
+                            if (counter>=90)
                             {
-                                quit=true;
+                                done=true;
+                                play=false;
                             }
                             counter++;
 
@@ -381,9 +384,8 @@ int main( int argc, char* args[] )
                     if(e.type == SDL_MOUSEMOTION)
                     {
                         SDL_GetMouseState( &x, &y );
-                        keyflag=0;
                     }
-                    if(e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT && player->GetAlive()==true)
+                    if(e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT && player->GetState()!=DIE)
                     {
                         if (fire > 16)
                         {
@@ -398,7 +400,7 @@ int main( int argc, char* args[] )
                         }
                         keyflag=0;
                     }
-                    if(e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_RIGHT && player->GetAlive()==true)
+                    if(e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_RIGHT && player->GetState()!=DIE)
                     {
                         if (fire > 2)
                         {
@@ -447,7 +449,7 @@ int main( int argc, char* args[] )
             Mix_FreeChunk(Death);
 
             Mix_CloseAudio();
-			file.SaveFile(player, units);
+			file.SaveFile(player, units, score);
             delete player;
 
 		}

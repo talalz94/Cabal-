@@ -140,13 +140,13 @@ void Soldier::Move()
     {
         speedx=0;
     }
-    if (animation!=IDLE)
+    if (animation!=IDLE)    // soldier looking at the player
     {
         position.x+=speedx;
     }
     if (fire==0)
     {
-        if (position.x>300 && position.x<350)
+        if (position.x>300 && position.x<350)   // At this position, soldier will fire
         {
             SetState(IDLE);
             fire=1;
@@ -194,7 +194,7 @@ bool Soldier::GetAlive()
     if (health==0)
     {
         health=-1;
-        SetState(DIE);
+        SetState(DIE);  // soldier dies after one bullet is hit
     }
     return alive;
 }

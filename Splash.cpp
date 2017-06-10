@@ -12,7 +12,7 @@ Splash::Splash()
 
 Splash::Splash(LTexture* image, float x, float y):Screen(image,x,y)
 {
-	spriteClips[0].x = 0;
+	spriteClips[0].x = 0;               //sprite sheet is clipped according to certain dimensions
 	spriteClips[0].y = 0;
 	spriteClips[0].w = 1250;
 	spriteClips[0].h = 700;
@@ -23,7 +23,6 @@ Splash::Splash(LTexture* image, float x, float y):Screen(image,x,y)
 Splash::~Splash()
 {
 	spriteSheetTexture = NULL;
-	printf("SPlash destructor called\n");
 }
 
 void Splash::Render(SDL_Renderer* gRenderer)

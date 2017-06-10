@@ -26,12 +26,12 @@ void Word::Display()
     int character;
     for (int i = 0; i < sizeofword; i++)
     {
-        Point p;
-        p.x = 20 + i*35 + start.x;
-        p.y = 20 + start.y;
+        Point p;                            //An object of Point is created
+        p.x = 20 + i*35 + start.x;          //the x-coordinate of the point
+        p.y = 20 + start.y;                 //the y-coordinate of the point
         if (str[i] != ' ')
         {
-            if (str[i] == 'A')
+            if (str[i] == 'A')              //the characters are checked one by one and assigned numbers
         {
             character = 0;
         }

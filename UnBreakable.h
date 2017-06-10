@@ -5,12 +5,9 @@
 class UnBreakable:public Barriers
 {
 public:
-    UnBreakable(LTexture*, float, float);
+    UnBreakable();
+    UnBreakable(LTexture*, Point&, int);
     ~UnBreakable();
     void Render(long int&, SDL_Renderer*);
-    int GetType();
-    void SetAlive(bool);
     bool GetAlive();
-    void SetPosition(const Point&);
-    const Point GetPosition();
 };

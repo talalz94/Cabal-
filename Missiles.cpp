@@ -49,20 +49,20 @@ Missiles::Missiles(LTexture* image, Point& departure, Unit* target)
     clips[7].w = 39;
     clips[7].h = 16;
 
-    this->position = departure;         //initial co-ordinates of missile
-    initial=departure;                  //target co-ordinates of player.
+    this->position = departure;
+    initial=departure;
     this->target = target;
     this->width = clips[0].w;
     this->height = clips[0].h;
 
     type=13;
-    friction = 1.02f;                   //used to accelerate speed of missile
+    friction = 1.02f;
     speedx = 5;
     speedy = 3;
     alive  = true;
-    moves=0;                            //used in sprite animation
+    moves=0;
     ratioo=0;
-    health=1;                           //determines damage of health to player
+    health=1;
 
 }
 
@@ -80,16 +80,16 @@ void Missiles::Render(long int& frame, SDL_Renderer* gRenderer)
 
 void Missiles::Move()
 {
-    angle =atan2(target->Getx() - position.x, position.y);         //angle changes with the change with player.
+    angle =atan2(target->Getx() - position.x, position.y);
 
-    speedx=speedy*sin(angle)*3;                                    // speed in the x-direction
+    speedx=speedy*sin(angle)*3;
 
-    position.x+=speedx;                                            //movement of missile in x-direction
+    position.x+=speedx;
 
-    speedy = (speedy * friction) ;                                 //speed in y-direction
-    position.y+=(speedy);                                          // movement in y-direction
+    speedy = (speedy * friction) ;
+    position.y+=(speedy);
 
-    ratioo=90*((float)position.x/(float)target->Getx());           //ratioo determine the rotation of missile head
+    ratioo=90*((float)position.x/(float)target->Getx());
     if (ratioo > 170)
     {
         ratioo = 170;
@@ -105,7 +105,7 @@ void Missiles::Move()
 
 bool Missiles::GetAlive()
 {
-    if (position.y>640 || health==0)   //When missile goes out of the screen, it disappears
+    if (position.y>640 || health==0)   //When bullet goes out of the screen
     {
         alive=false;
     }

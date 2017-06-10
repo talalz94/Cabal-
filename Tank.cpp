@@ -7,7 +7,7 @@ Tank::Tank()
 
 Tank::Tank(LTexture* image, Point& position, int animation):Vehicle(image, position, animation)
 {
-    //Frame 0
+    //Frame 0                           //Different frames are created to perform animation
     clips[ 0 ].x = 3;
     clips[ 0 ].y = 3;
     clips[ 0 ].w = 85;
@@ -39,12 +39,12 @@ Tank::Tank(LTexture* image, Point& position, int animation):Vehicle(image, posit
 
     this->position = position;
 
-    this->width = clips[0].w;
-    this->height = clips[0].h;
+    this->width = clips[0].w;                   //the width of a tank
+    this->height = clips[0].h;                  //the height of a tank
 
     this->type=4;
-    speedx = 0;
-    speedy = 0;
+    speedx = 0;                                 //speed in x-axis
+    speedy = 0;                                 //speed in y-axis
     alive  = true;
     moves=0;
 
@@ -107,7 +107,7 @@ void Tank::Move()
     {
         speedx=0;
     }
-    if (animation!=IDLE)
+    if (animation!=IDLE)    // firing sprites
     {
         position.x+=speedx;
     }
@@ -136,12 +136,12 @@ void Tank::Move()
             delay = 0;
             if (position.x>400 && position.x<450)
             {
-                SetState(MOVE_LEFT);
+                SetState(MOVE_LEFT);    // don't fire while moving
                 fire=-1;
             }
             else if (position.x<700 && position.x>650)
             {
-                SetState(MOVE_RIGHT);
+                SetState(MOVE_RIGHT);   // don't fire while moving
                 fire=-1;
             }
         }

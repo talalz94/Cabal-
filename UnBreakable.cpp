@@ -1,50 +1,35 @@
 #include "UnBreakable.h"
-
-UnBreakable::UnBreakable(LTexture* image, float x, float y)
+UnBreakable::UnBreakable()
 {
-    std::cout<<"Unbreakable barrier  created\n";
+
+}
+UnBreakable::UnBreakable(LTexture* image, Point& position, int state)
+{
+    spriteSheetTexture = image;
+
+    //Frame 0
+    clips[ 0 ].x = 0;
+    clips[ 0 ].y = 0;
+    clips[ 0 ].w = 373;
+    clips[ 0 ].h = 169;
+
+    this->position.x = 700;
+    this->position.y = 100;
+
+    alive = true;
 }
 
 UnBreakable::~UnBreakable()
 {
-    std::cout<<"Unbreakable barrier destroyed\n";
+    std::cout<<"UnBreakable deallocated\n";
 }
 
-void UnBreakable::Render(long int& frame, SDL_Rendere* gRenderer)
+void UnBreakable::Render(long int& frame, SDL_Renderer* gRenderer)
 {
-
-}
-
-void UnBreakable::Move()
-{
-
-}
-void UnBreakable::Move(int direction)
-{
-    //if (direction==left) blah blah
-}
-
-int UnBreakable::GetType()
-{
-    return type;
-}
-
-void UnBreakable::SetAlive(bool alive)
-{
-    this->alive = alive;
+    spriteSheetTexture->Render(position.x-width/2, position.y-height/2, &clips[ 0 ], 0.0, NULL, SDL_FLIP_NONE, gRenderer );
 }
 
 bool UnBreakable::GetAlive()
 {
     return alive;
-}
-
-void UnBreakable::SetPosition(const Point&)
-{
-
-}
-
-const Point UnBreakable::GetPosition()
-{
-    return position;
 }

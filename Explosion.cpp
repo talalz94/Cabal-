@@ -7,11 +7,11 @@ Explosion::Explosion()
 
 Explosion::Explosion(LTexture* image, Point& position, int animation):Unit(image, position)
 {
-    spriteSheetTexture = image;
+    spriteSheetTexture = image;                                     //sprite sheet is loaded
     this->animation=animation;
     //Helicopter and Tank
     if (animation==ENEMY)
-    {
+    {                                                           //images are clipped so that animation can be performed
         clips[0].x = 5;
         clips[0].y = 39;
         clips[0].w = 21;
@@ -46,6 +46,8 @@ Explosion::Explosion(LTexture* image, Point& position, int animation):Unit(image
         clips[6].y = 30;
         clips[6].w = 37;
         clips[6].h = 37;
+
+        this->type=21;
     }
 
 
@@ -64,6 +66,7 @@ Explosion::Explosion(LTexture* image, Point& position, int animation):Unit(image
                 k++;
             }
         }
+        this->type=22;
     }
 
 
@@ -73,10 +76,8 @@ Explosion::Explosion(LTexture* image, Point& position, int animation):Unit(image
 
     this->width = clips[0].w;
     this->height = clips[0].h;
-
-    this->type=21;
-    speedx = 0;
-    speedy = 0;
+    speedx = 0;                                 //speed in x-coordinate
+    speedy = 0;                                 //speed in y-coordinate
     alive  = true;
     moves=0;
 }
